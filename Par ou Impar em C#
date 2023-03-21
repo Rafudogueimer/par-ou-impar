@@ -1,0 +1,25 @@
+using System;
+
+namespace NonameProject
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("este programa verifica se o numero");
+            Console.WriteLine("é par ou impar");
+            Console.WriteLine("Digite um numero");
+            string pingolas = Console.ReadLine();
+            int pingolas_01 = Int32.Parse(pingolas);
+            if (pingolas_01 % 2 == 0)
+            {
+                Console.WriteLine("Sua pingola tem duas bolas");
+            }
+            if (pingolas_01 % 2 == 1)
+            {
+                Console.WriteLine("vc é m");
+            }
+
+        }
+    }
+}
